@@ -2,6 +2,8 @@
 
 This module creates `cato_private_app` resources from a JSON file.
 
+- *Note: This feature is currently in Early Availability (EA) and has been rolled out to a limited set of customer accounts for testing and validation purposes.*
+
 ## Dependencies
 A published private application refers to an app-connector group (connector_group_name) that must already exist.
 See https://registry.terraform.io/modules/catonetworks/appconnector-gcp/cato module for more information about app-connectors on GCP (similar for -aws and -azure).
